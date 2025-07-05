@@ -13,8 +13,7 @@ public class PCShoot : MonoBehaviour
 
     private void Start()
     {
-        //for (int i = 0; i < poolSize; i++) SpawnBullet();
-        Bullet bullet = Instantiate(bulletPreFab);
+        for (int i = 0; i < poolSize; i++) SpawnBullet();
     }
 
     private void Update()

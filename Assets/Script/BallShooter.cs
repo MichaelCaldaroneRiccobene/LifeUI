@@ -28,12 +28,12 @@ public class BallShooter : MonoBehaviour
                 if(rb == null) return;
 
                 //Buco
-                GameObject hole = Instantiate(holePref, hitInfo.transform);
+                //GameObject hole = Instantiate(holePref, hitInfo.transform);
 
-                Quaternion hitRot = Quaternion.LookRotation(hitInfo.normal * -1);
-                hole.transform.position = hitInfo.point + hitInfo.normal * 0.01f;
-                hole.transform.rotation = hitRot;
-                Collider collider = hitInfo.collider;
+                //Quaternion hitRot = Quaternion.LookRotation(hitInfo.normal * -1);
+                //hole.transform.position = hitInfo.point + hitInfo.normal * 0.01f;
+                //hole.transform.rotation = hitRot;
+                //Collider collider = hitInfo.collider;
 
 
                 Vector3 diretion = hitInfo.transform.position - ray.origin;

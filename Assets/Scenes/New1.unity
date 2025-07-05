@@ -166,6 +166,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 41201627}
     m_Modifications:
+    - target: {fileID: 1432192235659786601, guid: d2317fc4f486db64790608e2f6917235,
+        type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3429232572868934677, guid: d2317fc4f486db64790608e2f6917235,
+        type: 3}
+      propertyPath: m_IgnoreReversedGraphics
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3746349979233700539, guid: d2317fc4f486db64790608e2f6917235,
         type: 3}
       propertyPath: m_Color.a

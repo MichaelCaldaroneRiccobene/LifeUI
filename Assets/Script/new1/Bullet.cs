@@ -13,7 +13,8 @@ public class Bullet : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
     }
-    private void Start()
+
+    private void OnEnable()
     {
         Invoke("DisableTime", lifeTime);
     }
